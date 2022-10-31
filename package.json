@@ -1,0 +1,30 @@
+{
+  "name": "@malikkorucu/react-ui-kit-test",
+  "version": "0.0.1",
+  "description": "A react component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Malik KORUCU",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "react": "^18.2.0",
+    "tslib": "^2.4.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.4.4"
+  },
+  "module": "dist/esm/index.js",
+  "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": ""
+  }
+}
