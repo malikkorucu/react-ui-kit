@@ -23,8 +23,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": ""
-  }
+  "types": "dist/index.d.ts"
 }
